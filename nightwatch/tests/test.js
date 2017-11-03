@@ -7,6 +7,6 @@ this.demoTestGoogle = function (browser) {
     .waitForElementVisible('button[name=btnG]', 1000)
     .click('button[name=btnG]')
     .pause(1000)
-    .assert.containsText('#main', 'The Night Watch')
+    .assert.containsText('#main', 'Sorete The Night Watch')
     .end();
 };
