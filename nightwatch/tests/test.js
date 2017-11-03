@@ -1,4 +1,5 @@
 this.demoTestGoogle = function (browser) {
+    console.log('demoTestGoogle!');
   browser
     .url('http://www.google.com')
     .waitForElementVisible('body', 1000)
